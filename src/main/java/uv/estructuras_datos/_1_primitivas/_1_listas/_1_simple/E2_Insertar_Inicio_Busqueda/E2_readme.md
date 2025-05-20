@@ -4,16 +4,12 @@
 
 Ampliar la funcionalidad del ejercicio anterior para que la lista simplemente ligada permita **insertar elementos al inicio** y **buscar un valor entero**. El alumno trabajará **modificando el código existente**, no creándolo desde cero.
 
----
-
 ## 📁 Archivos a modificar
 
 * `ListaSimple.java`
 * `MenuListaSimple.java`
 
 > ⚠️ **No es necesario modificar `Nodo.java` ni `Principal.java`.**
-
----
 
 ## 🔧 Cambios solicitados y explicación
 
@@ -53,8 +49,6 @@ public boolean buscar(int valor) {
 
 * `insertarAlInicio()` crea un nodo y lo enlaza como nueva cabeza de la lista. El nodo anterior se convierte en el siguiente del nuevo.
 * `buscar()` recorre nodo por nodo comparando el valor. Si encuentra coincidencia, retorna `true`; si llega al final sin encontrarlo, retorna `false`.
-
----
 
 ### 📝 Archivo: `MenuListaSimple.java`
 
@@ -99,8 +93,6 @@ System.out.println("5. Verificar si la lista está vacía");
 System.out.println("0. Salir");
 ```
 
----
-
 ## ✅ Resultado esperado
 
 Ejecuta la clase `Principal.java` y prueba el siguiente flujo:
@@ -110,14 +102,10 @@ Ejecuta la clase `Principal.java` y prueba el siguiente flujo:
 3. Usa la opción de **buscar** para verificar si `30` está en la lista
 4. Muestra la lista y verifica el orden de los elementos
 
----
-
-## 🧠 Reflexión
+## 🧠 Reflexión (Agregar a cuaderno de ejercicios)
 
 * ¿Cuál es la diferencia visual y lógica entre insertar al inicio y al final?
 * ¿La búsqueda es eficiente en listas simplemente ligadas? ¿Por qué?
-
----
 
 ## 📎 Actividad complementaria
 

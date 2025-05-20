@@ -6,16 +6,12 @@
 
 Ampliar la implementación de la lista simplemente ligada para permitir al usuario **eliminar un nodo por su valor**, contemplando los **tres posibles casos**: cuando el nodo a eliminar está al **inicio**, en el **medio**, o al **final** de la lista. Este ejercicio profundiza en el manejo de punteros y condiciones de frontera.
 
----
-
 ## 📁 Archivos a modificar
 
 * `ListaSimple.java`
 * `MenuListaSimple.java`
 
 > ⚠️ No es necesario modificar `Nodo.java` ni `Principal.java`.
-
----
 
 ## 🔧 Cambios solicitados 
 
@@ -90,7 +86,6 @@ Además, debemos verificar si la lista está vacía.
 Cuando encontramos el nodo a eliminar, **no podemos modificarlo directamente**, así que necesitamos usar `anterior` para decirle:
 "**tu siguiente nodo ya no será `actual`, sino el que sigue después de él**".
 
----
 
 ### 📌 Resumen visual
 
@@ -105,7 +100,6 @@ Queremos eliminar `30`.
   Resultado:
   `[10] -> [20] -> [40] -> null`
 
----
 
 ### ⚠️ Consideraciones especiales
 
@@ -113,7 +107,6 @@ Queremos eliminar `30`.
 * Si el nodo está al inicio, simplemente se avanza la cabeza.
 * Si el nodo está en el medio o al final, se necesita ajustar el enlace del nodo anterior.
 
----
 
 ### 📝 Archivo: `MenuListaSimple.java`
 
@@ -146,7 +139,6 @@ Y actualiza el menú visible al usuario:
  System.out.print("Selecciona una opción: ");
 ```
 
----
 
 ## ✅ Resultado esperado
 
@@ -172,17 +164,14 @@ Y actualiza el menú visible al usuario:
 6. Elimina el número `99` (no existe)
    Resultado esperado: `"El elemento no se encontró."`
 
----
 
-## 🧠 Reflexión
+## 🧠 Reflexión (Agregar a cuaderno de ejercicios)
 
 * ¿Por qué es importante mantener referencias al nodo anterior al eliminar?
 * ¿Qué ocurre si eliminas todos los nodos uno por uno?
 * ¿Podrías adaptar el método para eliminar **todas las ocurrencias** de un valor?
 
----
-
-## 📎 Actividad complementaria
+## 📎 Actividad complementaria (Agregar a cuaderno de ejercicios)
 
 Agrega una opción al menú que elimine **todos los nodos que tengan un valor dado**, en lugar de solo la primera ocurrencia.
 

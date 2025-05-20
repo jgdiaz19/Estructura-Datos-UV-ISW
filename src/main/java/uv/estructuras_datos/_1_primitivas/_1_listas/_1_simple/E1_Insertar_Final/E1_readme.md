@@ -5,8 +5,6 @@
 
 Implementar una estructura de datos de lista simplemente ligada en Java que permita almacenar valores de tipo entero (`int`) y realizar inserciones al final de la lista. El usuario podrá interactuar mediante un menú en consola.
 
----
-
 ## 📚 Clases involucradas
 
 * **Nodo.java**
@@ -21,16 +19,12 @@ Implementar una estructura de datos de lista simplemente ligada en Java que perm
 * **Principal.java**
   Punto de entrada del programa. Ejecuta el menú.
 
----
-
 ## 🛠 Funcionalidades implementadas
 
 * Insertar un número al final de la lista.
 * Mostrar los elementos de la lista.
 * Verificar si la lista está vacía.
 * Menú interactivo persistente hasta que el usuario elija salir.
-
----
 
 ## 🖥️ Ejemplo de ejecución
 
@@ -59,17 +53,13 @@ La lista NO está vacía.
 Selecciona una opción: 0
 Saliendo del programa...
 
----
-
 ## 📝 Instrucciones
 
 1. Compila todos los archivos `.java` en la carpeta del ejercicio.
 2. Ejecuta la clase `Principal` desde la terminal o desde tu IDE.
 3. Realiza varias inserciones y verifica que los datos se impriman correctamente.
 
----
-
-## 📗 Ejercicios practicos
+## 📗 Ejercicios practicos (Agregar a cuaderno de ejercicios)
 
 * Modifica el tipo de dato a `double` o `char` para practicar con otros tipos primitivos.
 * Agrega una opción en el menú para limpiar la lista.
