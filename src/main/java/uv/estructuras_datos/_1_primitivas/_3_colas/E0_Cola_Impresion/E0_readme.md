@@ -19,7 +19,7 @@
 Introducir el concepto de notación Big-O para medir la eficiencia de los algoritmos, abordando los diferentes tipos de complejidad temporal, su interpretación y cuándo se presentan.
 
 
-## 📘 ¿Qué es la Notación Big-O?
+## 📘 ¿Qué Big-O?
 
 La notación Big-O (O grande) es una forma matemática de describir el **crecimiento del tiempo de ejecución** de un algoritmo en función del tamaño de su entrada (`n`). No mide el tiempo en segundos, sino la **cantidad de pasos** relativos que realiza el algoritmo.
 
