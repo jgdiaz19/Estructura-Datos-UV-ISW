@@ -1,3 +1,5 @@
+## Principales operaciones con colas simples
+
 | Nº | Operación                  | Descripción                                                                 | Lógica paso a paso                                                                                                  | Complejidad |
 |----|----------------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|-------------|
 | 1  | Agregar (Enqueue)          | Inserta un nuevo elemento al final de la cola                               | - Crear nodo <br> - Si está vacía: frente = fin = nuevo <br> - Si no: fin.siguiente = nuevo; fin = nuevo            | O(1)        |
